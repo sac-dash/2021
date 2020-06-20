@@ -1,8 +1,9 @@
 name: "Jekyll true minimal theme"
 description: "Lightweight theme"
 
+remote_theme : cyevgeniy/jekyll-true-minimal
 url: "https://sac-dash.github.io/2021"
-baseurl: ""
+baseurl: "2021"
 
 markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
@@ -25,4 +26,3 @@ destination: ./_site
 sass:
     style: :compressed
     sass_dir: assets/css/
-remote_theme : cyevgeniy/jekyll-true-minimal
