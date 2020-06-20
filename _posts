@@ -1,7 +1,0 @@
-#!/usr/bin/perl
-
-sub print_hello {
-    print "Hello, Jekyll!\n";
-}
-
-print_hello;
