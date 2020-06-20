@@ -1,7 +1,7 @@
 name: "Jekyll true minimal theme"
 description: "Lightweight theme"
 
-url: "http://sac-dash.github.io/2021/"
+url: "http://sac-dash.github.io/2021"
 baseurl: ''
 
 markdown: kramdown
