@@ -1,25 +1,65 @@
 ---
 layout: default
+title: SMA 2020
 ---
 
-{% for post in paginator.posts %}
-<section>
-  <h2>
-    <a href='{{ site.url }}{{ post.url }}' title='{{ post.title }}'>
-      {{ post.title }}
-    </a>
-  </h2>
-  
-  <p>{{ post.excerpt | strip_html | truncate: 250 }}</p>
-</section>       
-{% endfor %}
+<div>
+      <center>
+            <h2>
+                  Ramada Plaza Jeju, Jeju, Republic of Korea</br>
+                  September 17-19, 2020
+            </h2>
+      
+            <img src="https://sma-2020.github.io/image/jeju-island.jpg" alt="" style="max-width: 100%; height: auto;">
+      
+            <div>
+                  <h3>Important Dates</h3>
+                  <table>
+                        <tbody>
+                              <tr>
+                                    <td>
+                                          <li>Paper Submission: </li>
+                                    </td>
+                                    <td>
+                                          <b style="color:#FF0000">August 14, 2020 (Hard Deadline)</b>
+                                    </td>
+                              </tr>
+                              <tr>
+                                    <td>
+                                          <li>Acceptance Notification: </li>
+                                    </td>
+                                    <td>
+                                          <b>August 24, 2020</b>
+                                    </td>
+                              </tr>
+                              <tr>
+                                    <td>
+                                          <li>Final Paper Submission: </li>
+                                    </td>
+                                    <td>
+                                          <b>September 2, 2020</b>
+                                    </td>
+                              </tr>
+                              <tr>
+                                    <td>
+                                          <li>Early Registration: </li>
+                                    </td>
+                                    <td>
+                                          <b>September 4, 2020</b>
+                                    </td>
+                              </tr>
+                        </tbody>
+                  </table>
+            </div>
 
-{% if paginator.previous_page %}
-<a href='{{ site.url }}{{ paginator.previous_page_path }}'>Previous</a>
-{% endif %}
-
-&mdash; {{ paginator.page }} of {{ paginator.total_pages }} &mdash;
-
-{% if paginator.next_page %}
-<a href='{{ site.url }}{{ paginator.next_page_path }}'>Next</a>
-{% endif %}
+            <div class="content" style="padding-top: 30px;">
+                  <p>We are closely monitoring the development of the COVID-19 situation that could impact paper submissions and in-person attendance. In the case of travel restrictions, a partially or fully virtual conference could become necessary and video/remote presentations will be accepted.</p>
+            </div>
+      
+            <div style="padding-top: 30px; padding-bottom: 10px;">
+                  <a>The conference information is also available at the Korean Institute of Smart Media: </a>
+                  <a href='http://kism.or.kr/'>http://kism.or.kr</a><br>
+                  <a>If you have any question regarding the conference, please contact us by email (kism1122@kism.or.kr) or by phone (+82 62 655 3507)</a>
+            </div>
+      </center>
+</div>
