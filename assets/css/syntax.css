@@ -61,10 +61,12 @@
 .header-conf-info { padding-top: 5%; line-height: 180%; font-weight: 700; }
 .home_info { border: 1px solid #cccccc; float: left; width: 50%; }
 .div-align { width: 50%; margin: 0 auto;}
-.container { padding-bottom: 30px; }
-.content { padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto; }
+.container { padding-bottom: 30px;}
+.content { padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto;}
 .tlayout { width: 560px; border: 1px solid #000000; border-collapse: collapse; border-spacing: 0px; }
-.theader { border: 1px solid #000000; padding-top: 4px; padding-bottom: 4px; padding-left: 5px; padding-right: 5px; }
+.theader { border: 1px solid #000000; background-color: #44CBBF; padding-top: 4px; padding-bottom: 4px; padding-left: 5px; padding-right: 5px; }
 .tcontent1 { border-right: 1px solid #000000; padding-top: 4px; padding-bottom: 4px; padding-left: 5px; padding-right: 5px; }
 .tcontent2 { border-top: 1px dotted #000000; border-bottom: 1px solid #000000; border-right: 1px solid #000000; padding-top: 4px; padding-bottom: 4px; padding-left: 5px; padding-right: 5px; }
 .tcontent3 { border-bottom: 1px solid #000000; border-right: 1px solid #000000; padding-top: 4px; padding-bottom: 4px; padding-left: 5px; padding-right: 5px; }
+.ul-style { list-style: none; }
+.li-style { background-image: url("https://icea-conf.github.io/2020/image/list-image.jpg"); background-repeat: no-repeat; background-position: left top; padding-left: 40px; }
